@@ -21,6 +21,7 @@ public class Program {
 
         }
         double sum = 0.0;
+        //usando length para especificar o tamanho(quantidade) de vx a ser contado(a)
         for(int i = 0; i < vect.length; i++){
             sum += vect[i].getPrice();
         }
@@ -29,5 +30,6 @@ public class Program {
         System.out.printf("AVERAGE PRICE = %.2f%n", avg);
 
         sc.close();
+
     }
 }
