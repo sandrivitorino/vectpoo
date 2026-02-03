@@ -21,10 +21,13 @@ public class Program {
 
         }
         double sum = 0.0;
-        //usando length para especificar o tamanho(quantidade) de vx a ser contado(a)
+        //usando length para especificar o tamanho(quantidade) de vezes a ser contado(a)
         for(int i = 0; i < vect.length; i++){
+            //usando get.Price para pegar apenas os preços e fazer a soma
             sum += vect[i].getPrice();
         }
+
+        // criando variavel avg para calcular a media dos produtos
         double avg = sum / vect.length;
 
         System.out.printf("AVERAGE PRICE = %.2f%n", avg);
