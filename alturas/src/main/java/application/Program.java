@@ -24,7 +24,7 @@ public class Program {
             System.out.print("altura: ");
             altura[i] = sc.nextDouble();
         }
-
+//aa
         double sum = 0.0;
         for(int i = 0; i < n; i++){
             sum += altura[i];
