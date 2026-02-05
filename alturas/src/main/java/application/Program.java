@@ -31,7 +31,16 @@ public class Program {
         }
         double mediaAltura = sum / n;
 
-        System.out.printf("Altura media: %.2f", mediaAltura);
+        System.out.println();
+        System.out.printf("Altura media: %.2f%n", mediaAltura);
+
+        int cont = 0;
+        for(int i = 0; i < n; i++){
+            if(idade[i] > 16){
+                cont += 1;
+            }
+        }
+
 
         sc.close();
     }
