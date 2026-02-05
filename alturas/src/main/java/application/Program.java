@@ -24,14 +24,14 @@ public class Program {
             System.out.print("altura: ");
             altura[i] = sc.nextDouble();
         }
-//aa
+
         double sum = 0.0;
         for(int i = 0; i < n; i++){
             sum += altura[i];
         }
         double mediaAltura = sum / n;
 
-        System.out.println("Altura media: " + mediaAltura);
+        System.out.printf("Altura media: %.2f", mediaAltura);
 
         sc.close();
     }
