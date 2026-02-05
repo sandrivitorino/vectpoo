@@ -41,6 +41,8 @@ public class Program {
             }
         }
 
+        double percent = cont * 100.0 / n;
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", percent);
 
         sc.close();
     }
