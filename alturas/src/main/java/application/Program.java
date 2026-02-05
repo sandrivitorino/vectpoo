@@ -11,15 +11,19 @@ public class Program {
         System.out.print("Quantas pessoas serao digitadas? ");
         int n = sc.nextInt();
 
-        int [] vect = new int[n];
+        String [] nomes = new String[n];
+        int [] idade = new int[n];
+        double [] altura = new double[n];
 
-        for(int i = 0; i > n; i++){
-            System.out.println("Dados da 1a pessoa: ");
-            System.out.println("Nome: ");
-
+        for(int i = 0; i < n; i++){
+            System.out.println("Dados da " + (i+1) + "a pessoa:");
+            System.out.print("Nome: ");
+            nomes[i] = sc.next();
+            System.out.print("idade: ");
+            idade[i] = sc.nextInt();
+            System.out.print("altura: ");
+            altura[i] = sc.nextDouble();
         }
-
-
 
 
         sc.close();
