@@ -25,6 +25,13 @@ public class Program {
             altura[i] = sc.nextDouble();
         }
 
+        double sum = 0.0;
+        for(int i = 0; i < n; i++){
+            sum += altura[i];
+        }
+        double mediaAltura = sum / n;
+
+        System.out.println("Altura media: " + mediaAltura);
 
         sc.close();
     }
