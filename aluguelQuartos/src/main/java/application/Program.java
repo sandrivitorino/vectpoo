@@ -8,6 +8,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        Rent r = new Rent("Maria", "maria@gmail.com");
 
         sc.close();
     }
