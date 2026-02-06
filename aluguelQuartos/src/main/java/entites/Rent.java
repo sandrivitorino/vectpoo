@@ -9,9 +9,9 @@ public class Rent {
 
     }
 
-    public Rent(String email, String name) {
-        this.email = email;
+    public Rent(String name, String email) {
         this.name = name;
+        this.email = email;
     }
 
     //adicionando getters e setters
