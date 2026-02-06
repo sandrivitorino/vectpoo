@@ -38,10 +38,12 @@ public class Program {
             System.out.println(x);
         }
         System.out.println("----------------------");
+        //mostrando o endereço do elemento na lista
         System.out.println("index of Clara: " + list.indexOf("clara"));
         System.out.println("index of vonvit: " + list.indexOf("vonvit"));
 
         System.out.println("----------------------");
+
         // IMPRIMINDO ELEMENTOS COMEÇADOS COM "l"
         //1 converte para stream: list.stream()
         //2 fazer a operação lambda desejada: .filter(x -> x.charAt(0) == 'l')
@@ -53,6 +55,10 @@ public class Program {
 
         System.out.println("----------------------");
 
+        //ENCONTRANDO ELEMENTOS
+        //encontre o 1º elemento com a letra "l"
+        String name = list.stream().filter(x -> x.charAt(0) == 'l').findFirst().orElse(null);
+        System.out.println(name);
 
     }
 
