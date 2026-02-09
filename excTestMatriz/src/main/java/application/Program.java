@@ -8,6 +8,11 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        int n = sc.nextInt();
+        //instanciando a matriz na memoria:
+        int [][] mat = new int [n][n];
+
+
         sc.close();
     }
 }
