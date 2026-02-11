@@ -26,7 +26,7 @@ public class Program {
         }
 
         System.out.println();
-
+        //percorrendo a matriz e achando a quantidade de negativos
         int count = 0;
         for(int i = 0; i<mat.length; i++){
             for(int j=0; j<mat[i].length; j++){
